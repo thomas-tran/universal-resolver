@@ -121,4 +121,8 @@ services:
     image: universalresolver/uni-resolver-web:latest
     ports:
       - "8080:8080"
+  tsjs-did-sirius-id-driver:
+    image: proximax/tsjs-did-sirius-id-driver:latest
+    ports:
+      - "8104:8080"
 
